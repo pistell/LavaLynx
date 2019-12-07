@@ -1,0 +1,42 @@
+{
+  "name": "lavalynx",
+  "version": "1.0.0",
+  "description": "LavaLynx Web Page",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pistell/LavaLynx.git"
+  },
+  "author": "James Pistell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pistell/LavaLynx/issues"
+  },
+  "homepage": "https://github.com/pistell/LavaLynx#readme",
+  "dependencies": {
+    "@material-ui/core": "^4.7.1",
+    "clsx": "^1.0.4",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-scripts": "^3.3.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
