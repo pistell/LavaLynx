@@ -8,7 +8,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -19,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/pistell/LavaLynx/issues"
   },
-  "homepage": "https://github.com/pistell/LavaLynx#readme",
+  "homepage": "https://pistell.github.io/LavaLynx",
   "dependencies": {
     "@material-ui/core": "^4.7.1",
     "clsx": "^1.0.4",
@@ -38,5 +40,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
   }
 }
