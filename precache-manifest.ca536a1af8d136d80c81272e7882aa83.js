@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b1bdf28d2953d5d3552489303534e022",
+    "revision": "aa53523cfa14d98d3cc77be5c1864c94",
     "url": "/LavaLynx/index.html"
   },
   {
