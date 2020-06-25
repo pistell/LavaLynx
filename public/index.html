@@ -54,7 +54,6 @@
     -->
     <script>
       'use strict';
-
       window.onload = function () {
         var p = document.querySelector('.MuiBox-root > img');
         var j = document.querySelector('.jss57 > .jss58 img');
@@ -63,9 +62,14 @@
           p.setAttribute('src', '/static/media/logo2_white.f5b20aa4.png');
         }
 
-        if (j.getAttribute('src').startsWith('/LavaLynx/')) {
-          j.setAttribute('src', '/static/media/logo2_white.f5b20aa4.png');
-        }
+        var btn = document.querySelector('.MuiButtonBase-root.MuiButton-root.MuiButton-contained.jss60.MuiButton-containedPrimary');
+        btn.addEventListener('click', function () {
+          setTimeout(function () {
+            if (j.getAttribute('src').startsWith('/LavaLynx/')) {
+              j.setAttribute('src', '/static/media/logo2_white.f5b20aa4.png');
+            }
+          }, 500);
+        });
       };
     </script>
   </body>
