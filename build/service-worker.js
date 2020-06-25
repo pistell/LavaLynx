@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/LavaLynx/precache-manifest.8ef9934ec139150abf2c5011d3571c22.js"
+  "/LavaLynx/precache-manifest.a37ee331ffcdd291367fceb28d1b1506.js"
 );
 
 self.addEventListener('message', (event) => {
