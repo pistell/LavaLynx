@@ -10,8 +10,12 @@ import Modal from '@material-ui/core/Modal';
 import TextField from '@material-ui/core/TextField';
 import Backdrop from '@material-ui/core/Backdrop';
 import Fade from '@material-ui/core/Fade';
-import logo from './logo.png';
+import logo from './logo2_white.png';
 import { classes } from 'istanbul-lib-coverage';
+import ReactGA from 'react-ga';
+ReactGA.initialize('UA-170791222-1');
+ReactGA.pageview(window.location.pathname + window.location.search);
+
 
 const useStyles = makeStyles((theme) => ({
   modal: {
@@ -50,8 +54,8 @@ function Copyright() {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
       Copyright ©
-      <Link color="inherit" href="https://material-ui.com/">
-        LavaLynx MarTech Tools |
+      <Link color="inherit" href="https://mgrs-mapper.com/">
+        LavaLynx, LLC  |
       </Link>
       {' '}
       {new Date().getFullYear()}
@@ -86,7 +90,7 @@ function AnimatedModal() {
   return (
     <div variant="body2" color="textSecondary" align="center">
       <Button variant="contained" color="primary" onClick={handleOpen} className={classes.loginForm}>
-        Client Login
+        Admin Login
       </Button>
       <Modal
         aria-labelledby="transition-modal-title"
@@ -103,14 +107,14 @@ function AnimatedModal() {
         <Fade in={open}>
           <div className={classes.paper}>
             <div className={classes.headline}>
-              <h2>LavaLynx Client Portal</h2>
+              <h2>LavaLynx Admin Portal</h2>
               <img src={logo} alt="Logo" width="100px" />
             </div>
             <Container variant="body2" color="textSecondary" align="center">
               <Box className={classes.paper}>
                 <Typography variant="h4" gutterBottom>Login</Typography>
                 <Typography variant="body1" gutterBottom>
-                  Login to Your LavaLynx 0.1.8 Account
+                  Login to Your LavaLynx Admin Portal
                 </Typography>
                 <Container maxWidth="sm">
                   <Box my={4}>
@@ -120,7 +124,7 @@ function AnimatedModal() {
                     </form>
                   </Box>
                   <Button type="button" variant="contained" color="secondary" onClick={handleClientLogin}>
-                    Client Login
+                    Admin Login
                   </Button>
                 </Container>
               </Box>
@@ -144,7 +148,7 @@ export default function App() {
       <Box my={4}>
       <img src={logo} alt="Logo" width="150px" style={divStyle}/>
         <Typography variant="h4" component="h1" gutterBottom style={divStyle}>
-              LavaLynx Client Portal
+              LavaLynx, LLC Military Software
         </Typography>
         <ProTip />
         <AnimatedModal />

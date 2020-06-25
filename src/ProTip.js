@@ -2,7 +2,7 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import SvgIcon from '@material-ui/core/SvgIcon';
 import Typography from '@material-ui/core/Typography';
-
+import Link from '@material-ui/core/Link';
 function LightBulbIcon(props) {
   return (
     <SvgIcon {...props}>
@@ -26,7 +26,11 @@ export default function ProTip() {
   return (
     <Typography className={classes.root} color="textSecondary">
       <LightBulbIcon className={classes.lightBulb} />
-      Pro tip: Check the User Glossary to instructions on upgrading from version 0.1.7 to 0.1.8
+      LavaLynx, LLC is owned and operated by CPT James Pistell, the creator of
+      {' '}
+      <Link color="primary" href="https://mgrs-mapper.com">
+        MGRS Mapper
+      </Link>
     </Typography>
   );
 }

@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.js": "/LavaLynx/static/js/main.a226276a.chunk.js",
+    "main.js.map": "/LavaLynx/static/js/main.a226276a.chunk.js.map",
+    "runtime-main.js": "/LavaLynx/static/js/runtime-main.770ae15c.js",
+    "runtime-main.js.map": "/LavaLynx/static/js/runtime-main.770ae15c.js.map",
+    "static/js/2.751c8363.chunk.js": "/LavaLynx/static/js/2.751c8363.chunk.js",
+    "static/js/2.751c8363.chunk.js.map": "/LavaLynx/static/js/2.751c8363.chunk.js.map",
+    "index.html": "/LavaLynx/index.html",
+    "precache-manifest.bc6eddfb0e7759f8ae16aabd6e225ce6.js": "/LavaLynx/precache-manifest.bc6eddfb0e7759f8ae16aabd6e225ce6.js",
+    "service-worker.js": "/LavaLynx/service-worker.js",
+    "static/js/2.751c8363.chunk.js.LICENSE": "/LavaLynx/static/js/2.751c8363.chunk.js.LICENSE",
+    "static/media/logo2_white.png": "/LavaLynx/static/media/logo2_white.f5b20aa4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.770ae15c.js",
+    "static/js/2.751c8363.chunk.js",
+    "static/js/main.a226276a.chunk.js"
+  ]
+}
